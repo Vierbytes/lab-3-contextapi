@@ -1,0 +1,29 @@
+.filter-buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.filter-button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 2px solid var(--border-color);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-button:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.filter-button.active {
+  border-color: var(--accent-color);
+  background: var(--accent-color);
+  color: white;
+}
