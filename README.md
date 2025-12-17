@@ -2,6 +2,10 @@
 
 A fully-featured Todo application demonstrating React's Context API for global state management. This project implements three independent contexts to manage todos, filters, and theming with full TypeScript support and localStorage persistence.
 
+![Todo App Demo](./public/todo.png)
+
+**Live Demo:** https://con-api.netlify.app/
+
 ## Project Overview
 
 This application showcases professional patterns for using React Context API to manage global state across a complex application. Built with React, TypeScript, and Vite.
